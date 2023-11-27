@@ -21,35 +21,15 @@ print("START: Thermal Expansion: Greg: Redstone Furnace: Remove");
         //copper
             remove_gregtech_ore(<gregtech:ore_copper_0>);
             //chalcopyrite
-                mods.thermalexpansion.RedstoneFurnace.removeRecipe(<gregtech:ore_chalcopyrite_0>);
-                //nether
-                    mods.thermalexpansion.RedstoneFurnace.removeRecipe(<gregtech:ore_chalcopyrite_0:1>);
-                //end
-                    mods.thermalexpansion.RedstoneFurnace.removeRecipe(<gregtech:ore_chalcopyrite_0:2>);
+                remove_gregtech_ore(<gregtech:ore_chalcopyrite_0>);
             //malachite
-                mods.thermalexpansion.RedstoneFurnace.removeRecipe(<gregtech:ore_malachite_0>);
-                //nether
-                    mods.thermalexpansion.RedstoneFurnace.removeRecipe(<gregtech:ore_malachite_0:1>);
-                //end
-                    mods.thermalexpansion.RedstoneFurnace.removeRecipe(<gregtech:ore_malachite_0:2>);
+                remove_gregtech_ore(<gregtech:ore_malachite_0>);
             //bornite
-                mods.thermalexpansion.RedstoneFurnace.removeRecipe(<gregtech:ore_bornite_0>);
-                //nether
-                    mods.thermalexpansion.RedstoneFurnace.removeRecipe(<gregtech:ore_bornite_0:1>);
-                //end
-                    mods.thermalexpansion.RedstoneFurnace.removeRecipe(<gregtech:ore_bornite_0:2>);
+                remove_gregtech_ore(<gregtech:ore_bornite_0>);
             //chalcocite
-                mods.thermalexpansion.RedstoneFurnace.removeRecipe(<gregtech:ore_chalcocite_0>);
-                //nether
-                    mods.thermalexpansion.RedstoneFurnace.removeRecipe(<gregtech:ore_chalcocite_0:1>);
-                //end
-                    mods.thermalexpansion.RedstoneFurnace.removeRecipe(<gregtech:ore_chalcocite_0:2>);
+                remove_gregtech_ore(<gregtech:ore_chalcocite_0>)
             //tetrahedrite
-                mods.thermalexpansion.RedstoneFurnace.removeRecipe(<gregtech:ore_tetrahedrite_0>);
-                //nether
-                    mods.thermalexpansion.RedstoneFurnace.removeRecipe(<gregtech:ore_tetrahedrite_0:1>);
-                //end
-                    mods.thermalexpansion.RedstoneFurnace.removeRecipe(<gregtech:ore_tetrahedrite_0:2>);
+                remove_gregtech_ore(<gregtech:ore_tetrahedrite_0>)
     }
 
     remove_ores();
