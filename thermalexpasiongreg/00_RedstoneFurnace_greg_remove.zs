@@ -27,10 +27,18 @@ print("START: Thermal Expansion: Greg: Redstone Furnace: Remove");
             //bornite
                 remove_gregtech_ore(<gregtech:ore_bornite_0>);
             //chalcocite
-                remove_gregtech_ore(<gregtech:ore_chalcocite_0>)
+                remove_gregtech_ore(<gregtech:ore_chalcocite_0>);
             //tetrahedrite
-                remove_gregtech_ore(<gregtech:ore_tetrahedrite_0>)
+                remove_gregtech_ore(<gregtech:ore_tetrahedrite_0>);
+    }
+
+    function remove_dusts() {
+        //malachite
+            mods.thermalexpansion.RedstoneFurnace.removeRecipe(<gregtech:meta_dust:385>);
+            mods.thermalexpansion.RedstoneFurnace.removeRecipe(<gregtech:meta_dust_impure:385>);
+            mods.thermalexpansion.RedstoneFurnace.removeRecipe(<gregtech:meta_dust_pure:385>);
     }
 
     remove_ores();
+    remove_dusts();
 print("END: Thermal Expansion: Greg: Redstone Furnace: Remove");
