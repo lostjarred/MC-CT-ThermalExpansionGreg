@@ -49,6 +49,8 @@ print("START: Thermal Expansion: Greg: Redstone Furnace: Remove");
     function remove_dusts() {
         //malachite
             remove_gregtech_dust(385);
+        //chalcoprite
+            remove_gregtech_dust(265);
     }
 
     remove_ores();
