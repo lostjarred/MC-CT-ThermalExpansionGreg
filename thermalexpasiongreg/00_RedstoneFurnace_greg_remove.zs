@@ -11,7 +11,7 @@ print("START: Thermal Expansion: Greg: Redstone Furnace: Remove");
     function remove_gregtech_ore(ore as IItemStack) {
         var ore_itemDef = ore.definition;
 
-        for i in 0 to 2 {
+        for i in 0 to 3 {
             var ore_iitemstack = ore_itemDef.makeStack(i);
             mods.thermalexpansion.RedstoneFurnace.removeRecipe(ore_iitemstack);
         }
