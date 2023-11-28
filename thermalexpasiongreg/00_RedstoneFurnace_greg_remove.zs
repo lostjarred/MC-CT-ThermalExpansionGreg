@@ -53,6 +53,12 @@ print("START: Thermal Expansion: Greg: Redstone Furnace: Remove");
             remove_gregtech_dust(265);
     }
 
+    function remove_crushed_ore() {
+        //tetrahedrite
+            mods.thermalexpansion.RedstoneFurnace.removeRecipe(<gregtech:meta_crushed:327>);
+    }
+
     remove_ores();
     remove_dusts();
+    remove_crushed_ore();
 print("END: Thermal Expansion: Greg: Redstone Furnace: Remove");
