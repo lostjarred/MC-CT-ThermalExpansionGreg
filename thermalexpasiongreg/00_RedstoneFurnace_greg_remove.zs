@@ -17,6 +17,20 @@ print("START: Thermal Expansion: Greg: Redstone Furnace: Remove");
         }
     }
 
+    function remove_gregtech_dust(meta as int) {
+        var dust_itemdef = <gregtech:meta_dust>.definition;
+        var impure_dust_itemdef = <gregtech:meta_dust_impure>.definition;
+        var pure_dust_itemdef = <gregtech:meta_dust_pure>.definition;
+
+        var dust_iitemstack = dust_itemdef.makeStack(meta);
+        var impure_dust_iitemstack = impure_dust_itemdef.makeStack(meta);
+        var pure_dust_iitemstack = pure_dust_itemdef.makeStack(meta);
+
+        mods.thermalexpansion.RedstoneFurnace.removeRecipe(dust_iitemstack);
+        mods.thermalexpansion.RedstoneFurnace.removeRecipe(impure_dust_iitemstack);
+        mods.thermalexpansion.RedstoneFurnace.removeRecipe(pure_dust_iitemstack);
+    }
+
     function remove_ores() {
         //copper
             remove_gregtech_ore(<gregtech:ore_copper_0>);
@@ -34,9 +48,7 @@ print("START: Thermal Expansion: Greg: Redstone Furnace: Remove");
 
     function remove_dusts() {
         //malachite
-            mods.thermalexpansion.RedstoneFurnace.removeRecipe(<gregtech:meta_dust:385>);
-            mods.thermalexpansion.RedstoneFurnace.removeRecipe(<gregtech:meta_dust_impure:385>);
-            mods.thermalexpansion.RedstoneFurnace.removeRecipe(<gregtech:meta_dust_pure:385>);
+            remove_gregtech_dust(385);
     }
 
     remove_ores();
