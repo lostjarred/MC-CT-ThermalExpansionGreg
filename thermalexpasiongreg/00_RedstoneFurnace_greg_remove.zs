@@ -81,7 +81,7 @@ print("START: Thermal Expansion: Greg: Redstone Furnace: Remove");
         //chalcopyrite
             remove_gregtech_crushed(265);
         //bornite
-            remove_gregtech_crushed(128);
+            remove_gregtech_crushed(347);
         //malachite
             remove_gregtech_crushed(385);
         //copper
