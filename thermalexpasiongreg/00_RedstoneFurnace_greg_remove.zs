@@ -81,6 +81,7 @@ print("START: Thermal Expansion: Greg: Redstone Furnace: Remove");
         //malachite
             remove_gregtech_crushed(385);
         //copper
+            remove_gregtech_crushed(25);
     }
 
     remove_ores();
