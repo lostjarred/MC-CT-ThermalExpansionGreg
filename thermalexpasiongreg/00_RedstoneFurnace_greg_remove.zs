@@ -34,12 +34,15 @@ print("START: Thermal Expansion: Greg: Redstone Furnace: Remove");
     function remove_gregtech_crushed(meta as int) {
         var crushed_itemdef = <gregtech:meta_crushed>.definition;
         var crushed_centifuged_itemdef = <gregtech:meta_crushed_centrifuged>.definition;
+        var crushed_purified_itemdef = <gregtech:meta_crushed_purified>.definition;
 
         var crushed_iitemstack = crushed_itemdef.makeStack(meta);
         var crushed_centifuged_iitemstack = crushed_centifuged_itemdef.makeStack(meta);
+        var crushed_purified_iitemstack = crushed_purified_itemdef.makeStack(meta);
 
         mods.thermalexpansion.RedstoneFurnace.removeRecipe(crushed_iitemstack);
         mods.thermalexpansion.RedstoneFurnace.removeRecipe(crushed_centifuged_iitemstack);
+        mods.thermalexpansion.RedstoneFurnace.removeRecipe(crushed_purified_iitemstack);
     }
 
     function remove_ores() {
@@ -77,6 +80,7 @@ print("START: Thermal Expansion: Greg: Redstone Furnace: Remove");
             remove_gregtech_crushed(128);
         //malachite
             remove_gregtech_crushed(385);
+        //copper
     }
 
     remove_ores();
