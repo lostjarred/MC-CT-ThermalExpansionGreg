@@ -12,14 +12,30 @@ print("START: Thermal Expansion: Greg: Redstone Furnace: Add");
         mods.thermalexpansion.RedstoneFurnace.addRecipe(<minecraft:gold_ingot>, <minecraft:iron_ingot>, 3600);
     */
 
-    function add_ore() {
-        val energy = 2000;
-        //copper
-        var ingot = <gregtech:meta_ingot:25>;
-        mods.thermalexpansion.RedstoneFurnace.addRecipe(ingot, <gregtech:ore_copper_0:0>, energy);
-        mods.thermalexpansion.RedstoneFurnace.addRecipe(ingot * 2, <gregtech:ore_copper_0:1>, energy);
-        mods.thermalexpansion.RedstoneFurnace.addRecipe(ingot * 2, <gregtech:ore_copper_0:2>, energy);
+    function redstonefurnace_add_gt_ores(ore as IItemStack, ingot as IItemStack) {
+        val energycost = 2000;
+        //make item def
+        var ore_itemdef = ore.definition;
+        
+        //turn oredef into item stack
+        //overworld
+        var ow_ore_iitemstack = ore_itemdef.makeStack(0);
+        //nether
+        var ne_ore_iitemstack = ore_itemdef.makeStack(1);
+        //end
+        var en_ore_iitemstack = ore_itemdef.makeStack(2);
+
+        //furnace recipes
+        mods.thermalexpansion.RedstoneFurnace.addRecipe(ingot, ow_ore_iitemstack, energycost);
+        mods.thermalexpansion.RedstoneFurnace.addRecipe(ingot * 2, ne_ore_iitemstack, energycost);
+        mods.thermalexpansion.RedstoneFurnace.addRecipe(ingot * 2, en_ore_iitemstack, energycost);
     }
 
-    add_ore();
+    function add_ores() {
+        //copper
+        var ingot = <gregtech:meta_ingot:25>;
+        redstonefurnace_add_gt_ores(<gregtech:ore_copper_0>, ingot);
+    }
+
+    add_ores();
 print("END: Thermal Expansion: Greg: Redstone Furnace: Add");
