@@ -3,6 +3,8 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import crafttweaker.oredict.IOreDictEntry;
 
+import scripts.thermalexpansiongreg.Util_Functions as UF;
+
 print("START: Thermal Expansion: Greg: Redstone Furnace: Add");
     /*
         RF used
@@ -33,8 +35,7 @@ print("START: Thermal Expansion: Greg: Redstone Furnace: Add");
 
     function add_ores() {
         //copper
-        var ingot = <gregtech:meta_ingot:25>;
-        redstonefurnace_add_gt_ores(<gregtech:ore_copper_0>, ingot);
+        redstonefurnace_add_gt_ores(<gregtech:ore_copper_0>, UF.getItemstack(<ore:ingotCopper>) );
     }
 
     add_ores();
