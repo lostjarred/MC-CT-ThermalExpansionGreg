@@ -49,6 +49,22 @@ print("START: Thermal Expansion: Greg: Redstone Furnace: Add");
             mods.thermalexpansion.RedstoneFurnace.addRecipe(ingot, crushed_purified_iitemstack, energycost);
     }
 
+    function redstonfurnace_add_gt_dust_ores(meta as int, ingot as IItemStack) {
+        val energycost = 1500;
+        //itemdefs
+            var dust_itemdef = <gregtech:meta_dust>.definition;
+            var impure_dust_itemdef = <gregtech:meta_dust_impure>.definition;
+            var pure_dust_itemdef = <gregtech:meta_dust_pure>.definition;
+        //itemdefs to iitemstacks
+            var dust_iitemstack = dust_itemdef.makeStack(meta);
+            var impure_dust_iitemstack = impure_dust_itemdef.makeStack(meta);
+            var pure_dust_iitemstack = pure_dust_itemdef.makeStack(meta);
+        //furnace recipes
+            mods.thermalexpansion.RedstoneFurnace.addRecipe(ingot, dust_iitemstack, energycost);
+            mods.thermalexpansion.RedstoneFurnace.addRecipe(ingot, impure_dust_iitemstack, energycost);
+            mods.thermalexpansion.RedstoneFurnace.addRecipe(ingot, pure_dust_iitemstack, energycost);
+    }
+
     function add_ores() {
         //copper
             redstonefurnace_add_gt_ores(<gregtech:ore_copper_0>, UF.getItemstack(<ore:ingotCopper>) );
@@ -59,6 +75,12 @@ print("START: Thermal Expansion: Greg: Redstone Furnace: Add");
             redstonefurnace_add_gt_crushed_ores(25, UF.getItemstack(<ore:ingotCopper>) );
     }
 
+    function add_dust_ores() {
+        //copper
+            redstonfurnace_add_gt_dust_ores(25, UF.getItemstack(<ore:ingotCopper>) );
+    }
+
     add_ores();
     add_crushed_ores();
+    add_dust_ores();
 print("END: Thermal Expansion: Greg: Redstone Furnace: Add");
