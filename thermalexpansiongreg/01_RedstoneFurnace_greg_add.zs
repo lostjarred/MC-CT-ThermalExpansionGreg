@@ -17,26 +17,48 @@ print("START: Thermal Expansion: Greg: Redstone Furnace: Add");
     function redstonefurnace_add_gt_ores(ore as IItemStack, ingot as IItemStack) {
         val energycost = 2000;
         //make item def
-        var ore_itemdef = ore.definition;
+            var ore_itemdef = ore.definition;
         
         //turn oredef into item stack
         //overworld
-        var ow_ore_iitemstack = ore_itemdef.makeStack(0);
+            var ow_ore_iitemstack = ore_itemdef.makeStack(0);
         //nether
-        var ne_ore_iitemstack = ore_itemdef.makeStack(1);
+            var ne_ore_iitemstack = ore_itemdef.makeStack(1);
         //end
-        var en_ore_iitemstack = ore_itemdef.makeStack(2);
+            var en_ore_iitemstack = ore_itemdef.makeStack(2);
 
         //furnace recipes
-        mods.thermalexpansion.RedstoneFurnace.addRecipe(ingot, ow_ore_iitemstack, energycost);
-        mods.thermalexpansion.RedstoneFurnace.addRecipe(ingot * 2, ne_ore_iitemstack, energycost);
-        mods.thermalexpansion.RedstoneFurnace.addRecipe(ingot * 2, en_ore_iitemstack, energycost);
+            mods.thermalexpansion.RedstoneFurnace.addRecipe(ingot, ow_ore_iitemstack, energycost);
+            mods.thermalexpansion.RedstoneFurnace.addRecipe(ingot * 2, ne_ore_iitemstack, energycost);
+            mods.thermalexpansion.RedstoneFurnace.addRecipe(ingot * 2, en_ore_iitemstack, energycost);
+    }
+
+    function redstonefurnace_add_gt_crushed_ores(meta as int, ingot as IItemStack) {
+        val energycost = 1750;
+        //item defs
+            var crushed_itemdef = <gregtech:meta_crushed>.definition;
+            var crushed_centifuged_itemdef = <gregtech:meta_crushed_centrifuged>.definition;
+            var crushed_purified_itemdef = <gregtech:meta_crushed_purified>.definition;
+        //item defs to item stacks
+            var crushed_iitemstack = crushed_itemdef.makeStack(meta);
+            var crushed_centifuged_iitemstack = crushed_centifuged_itemdef.makeStack(meta);
+            var crushed_purified_iitemstack = crushed_purified_itemdef.makeStack(meta);
+        //furnace recipes
+            mods.thermalexpansion.RedstoneFurnace.addRecipe(ingot, crushed_iitemstack, energycost);
+            mods.thermalexpansion.RedstoneFurnace.addRecipe(ingot, crushed_centifuged_iitemstack, energycost);
+            mods.thermalexpansion.RedstoneFurnace.addRecipe(ingot, crushed_purified_iitemstack, energycost);
     }
 
     function add_ores() {
         //copper
-        redstonefurnace_add_gt_ores(<gregtech:ore_copper_0>, UF.getItemstack(<ore:ingotCopper>) );
+            redstonefurnace_add_gt_ores(<gregtech:ore_copper_0>, UF.getItemstack(<ore:ingotCopper>) );
+    }
+
+    function add_crushed_ores() {
+        //copper
+            redstonefurnace_add_gt_crushed_ores(25, UF.getItemstack(<ore:ingotCopper>) );
     }
 
     add_ores();
+    add_crushed_ores();
 print("END: Thermal Expansion: Greg: Redstone Furnace: Add");
