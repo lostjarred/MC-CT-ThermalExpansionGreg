@@ -100,6 +100,9 @@ print("START: Thermal Expansion: Greg: Redstone Furnace: Add");
             redstonefurnace_add_gt_crushed_ores(385, UF.getItemstack(<ore:ingotCopper>) );
         //chalcocite
             redstonefurnace_add_gt_crushed_ores(348, UF.getItemstack(<ore:ingotCopper>) );
+        
+        //cassiterite
+            redstonefurnace_add_gt_crushed_ores(263, UF.getItemstack(<ore:ingotTin>) );
     }
 
     function add_dust_ores() {
