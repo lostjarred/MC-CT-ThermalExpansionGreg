@@ -46,7 +46,7 @@ print("START: Thermal Expansion: Greg: Redstone Furnace: Remove");
     }
 
     function remove_ores() {
-        //copper
+            //copper
             remove_gregtech_ore(<gregtech:ore_copper_0>);
             //chalcopyrite
                 remove_gregtech_ore(<gregtech:ore_chalcopyrite_0>);
@@ -73,6 +73,8 @@ print("START: Thermal Expansion: Greg: Redstone Furnace: Remove");
             remove_gregtech_dust(327);
         //bornite
             remove_gregtech_dust(347);
+        //cassiterite
+            remove_gregtech_dust(267);
     }
 
     function remove_crushed_ore() {
