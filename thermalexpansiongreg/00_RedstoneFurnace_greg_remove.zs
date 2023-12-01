@@ -60,6 +60,21 @@ print("START: Thermal Expansion: Greg: Redstone Furnace: Remove");
                 remove_gregtech_ore(<gregtech:ore_tetrahedrite_0>);
     }
 
+    function remove_crushed_ore() {
+        //tetrahedrite
+            remove_gregtech_crushed(327);
+        //chalcopyrite
+            remove_gregtech_crushed(265);
+        //bornite
+            remove_gregtech_crushed(347);
+        //malachite
+            remove_gregtech_crushed(385);
+        //copper
+            remove_gregtech_crushed(25);
+        //chalcocite
+            remove_gregtech_crushed(348);
+    }
+
     function remove_dusts() {
         //malachite
             remove_gregtech_dust(385);
@@ -75,21 +90,6 @@ print("START: Thermal Expansion: Greg: Redstone Furnace: Remove");
             remove_gregtech_dust(347);
         //cassiterite
             remove_gregtech_dust(267);
-    }
-
-    function remove_crushed_ore() {
-        //tetrahedrite
-            remove_gregtech_crushed(327);
-        //chalcopyrite
-            remove_gregtech_crushed(265);
-        //bornite
-            remove_gregtech_crushed(347);
-        //malachite
-            remove_gregtech_crushed(385);
-        //copper
-            remove_gregtech_crushed(25);
-        //chalcocite
-            remove_gregtech_crushed(348);
     }
 
     remove_ores();
