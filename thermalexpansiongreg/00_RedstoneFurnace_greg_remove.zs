@@ -105,6 +105,8 @@ print("START: Thermal Expansion: Greg: Redstone Furnace: Remove");
             remove_gregtech_dust(267);
         //cassiterite sand
             remove_gregtech_dust(264);
+        //tin
+            remove_gregtech_dust(112);
     }
 
     remove_ores();
