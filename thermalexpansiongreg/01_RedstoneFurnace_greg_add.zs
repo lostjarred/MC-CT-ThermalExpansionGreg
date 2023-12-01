@@ -70,6 +70,8 @@ print("START: Thermal Expansion: Greg: Redstone Furnace: Add");
             redstonefurnace_add_gt_ores(<gregtech:ore_copper_0>, UF.getItemstack(<ore:ingotCopper>) );
         //chalcopyrite
             redstonefurnace_add_gt_ores(<gregtech:ore_chalcopyrite_0>, UF.getItemstack(<ore:ingotCopper>) );
+        //malachite
+            redstonefurnace_add_gt_ores(<gregtech:ore_malachite_0>, UF.getItemstack(<ore:ingotCopper>) );
     }
 
     function add_crushed_ores() {
