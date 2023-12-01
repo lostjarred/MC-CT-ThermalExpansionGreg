@@ -102,6 +102,8 @@ print("START: Thermal Expansion: Greg: Redstone Furnace: Add");
             redstonfurnace_add_gt_dust_ores(385, UF.getItemstack(<ore:ingotCopper>) );
         //chalcoprite
             redstonfurnace_add_gt_dust_ores(265, UF.getItemstack(<ore:ingotCopper>) );
+        //chalcocite
+            redstonfurnace_add_gt_dust_ores(348, UF.getItemstack(<ore:ingotCopper>) );
     }
 
     add_ores();
