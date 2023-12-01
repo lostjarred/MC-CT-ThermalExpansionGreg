@@ -83,6 +83,8 @@ print("START: Thermal Expansion: Greg: Redstone Furnace: Add");
     function add_crushed_ores() {
         //copper
             redstonefurnace_add_gt_crushed_ores(25, UF.getItemstack(<ore:ingotCopper>) );
+        //tetrahedrite
+            redstonefurnace_add_gt_crushed_ores(327, UF.getItemstack(<ore:ingotCopper>) );
     }
 
     function add_dust_ores() {
