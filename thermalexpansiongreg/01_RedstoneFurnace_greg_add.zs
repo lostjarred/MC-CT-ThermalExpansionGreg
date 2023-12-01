@@ -34,7 +34,7 @@ print("START: Thermal Expansion: Greg: Redstone Furnace: Add");
     }
 
     function redstonefurnace_add_gt_crushed_ores(meta as int, ingot as IItemStack) {
-        val energycost = 1750;
+        val energycost = 2000;
         //item defs
             var crushed_itemdef = <gregtech:meta_crushed>.definition;
             var crushed_centifuged_itemdef = <gregtech:meta_crushed_centrifuged>.definition;
