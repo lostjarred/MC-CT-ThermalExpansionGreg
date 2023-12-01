@@ -64,7 +64,7 @@ print("START: Thermal Expansion: Greg: Redstone Furnace: Remove");
             //casssiterite sand
                 remove_gregtech_ore(<gregtech:ore_cassiterite_sand_0>);
             //tin
-                remove_gregtech_ore(<gregtech:ore_tin_sand_0>);
+                remove_gregtech_ore(<gregtech:ore_tin_0>);
     }
 
     function remove_crushed_ore() {
