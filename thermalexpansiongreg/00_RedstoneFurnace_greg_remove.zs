@@ -76,6 +76,8 @@ print("START: Thermal Expansion: Greg: Redstone Furnace: Remove");
 
         //cassiterite
             remove_gregtech_crushed(263);
+        //cassiterite sand
+            remove_gregtech_crushed(264);
     }
 
     function remove_dusts() {
