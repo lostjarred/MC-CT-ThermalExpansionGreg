@@ -127,6 +127,8 @@ print("START: Thermal Expansion: Greg: Redstone Furnace: Add");
             redstonfurnace_add_gt_dust_ores(263, UF.getItemstack(<ore:ingotTin>) );
         //cassiterite sand
             redstonfurnace_add_gt_dust_ores(264, UF.getItemstack(<ore:ingotTin>) );
+        //tin
+            redstonfurnace_add_gt_dust_ores(112, UF.getItemstack(<ore:ingotTin>) );
     }
 
     add_ores();
