@@ -122,6 +122,9 @@ print("START: Thermal Expansion: Greg: Redstone Furnace: Add");
             redstonfurnace_add_gt_dust_ores(327, UF.getItemstack(<ore:ingotCopper>) );
         //bornite
             redstonfurnace_add_gt_dust_ores(347, UF.getItemstack(<ore:ingotCopper>) );
+        
+        //cassiterite
+            redstonfurnace_add_gt_dust_ores(263, UF.getItemstack(<ore:ingotTin>) );
     }
 
     add_ores();
