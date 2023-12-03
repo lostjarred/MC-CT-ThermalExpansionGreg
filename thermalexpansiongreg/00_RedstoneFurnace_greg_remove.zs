@@ -146,6 +146,8 @@ print("START: Thermal Expansion: Greg: Redstone Furnace: Remove");
             remove_gregtech_dust(69);
         //pentlandite
             remove_gregtech_dust(380);
+        //garnierite
+            remove_gregtech_dust(280);
     }
 
     remove_ores();
