@@ -101,6 +101,8 @@ print("START: Thermal Expansion: Greg: Redstone Furnace: Remove");
         
         //lead
             remove_gregtech_crushed(55);
+        //galena
+            remove_gregtech_crushed(279);
     }
 
     function remove_dusts() {
