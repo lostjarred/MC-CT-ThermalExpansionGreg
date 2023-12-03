@@ -110,6 +110,9 @@ print("START: Thermal Expansion: Greg: Redstone Furnace: Add");
             redstonefurnace_add_gt_crushed_ores(264, UF.getItemstack(<ore:ingotTin>) );
         //tin
             redstonefurnace_add_gt_crushed_ores(112, UF.getItemstack(<ore:ingotTin>) );
+
+        //silver
+            redstonefurnace_add_gt_crushed_ores(100, UF.getItemstack(<ore:ingotSilver>) );
     }
 
     function add_dust_ores() {
