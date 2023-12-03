@@ -148,6 +148,9 @@ print("START: Thermal Expansion: Greg: Redstone Furnace: Add");
         
         //silver
             redstonfurnace_add_gt_dust_ores(100, UF.getItemstack(<ore:ingotSilver>) );
+        
+        //lead
+            redstonfurnace_add_gt_dust_ores(55, UF.getItemstack(<ore:ingotLead>) );
     }
 
     add_ores();
