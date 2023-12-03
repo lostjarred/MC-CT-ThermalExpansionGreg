@@ -118,6 +118,9 @@ print("START: Thermal Expansion: Greg: Redstone Furnace: Remove");
 
         //silver
             remove_gregtech_dust(100);
+
+        //lead
+            remove_gregtech_dust(55);
     }
 
     remove_ores();
