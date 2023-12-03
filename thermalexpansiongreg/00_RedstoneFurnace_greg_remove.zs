@@ -76,6 +76,8 @@ print("START: Thermal Expansion: Greg: Redstone Furnace: Remove");
 
             //nickel
                 remove_gregtech_ore(<gregtech:ore_nickel_0>);
+            //pentlandite
+                remove_gregtech_ore(<gregtech:ore_pentlandite_0>);
     }
 
     function remove_crushed_ore() {
