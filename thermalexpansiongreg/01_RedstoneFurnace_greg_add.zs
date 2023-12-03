@@ -91,6 +91,8 @@ print("START: Thermal Expansion: Greg: Redstone Furnace: Add");
 
         //galena
             redstonefurnace_add_gt_ores(<gregtech:ore_galena_0>, UF.getItemstack(<ore:ingotLead>) );
+        //lead
+            redstonefurnace_add_gt_ores(<gregtech:ore_lead_0>, UF.getItemstack(<ore:ingotLead>) );
     }
 
     function add_crushed_ores() {
