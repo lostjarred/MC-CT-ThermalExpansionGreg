@@ -136,6 +136,9 @@ print("START: Thermal Expansion: Greg: Redstone Furnace: Remove");
             remove_gregtech_dust(55);
         //galena
             remove_gregtech_dust(279);
+
+        //nickel
+            remove_gregtech_dust(69);
     }
 
     remove_ores();
