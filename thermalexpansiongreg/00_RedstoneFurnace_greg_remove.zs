@@ -106,6 +106,8 @@ print("START: Thermal Expansion: Greg: Redstone Furnace: Remove");
 
         //nickel 
             remove_gregtech_crushed(69);
+        //pentlandite
+            remove_gregtech_crushed(380);
     }
 
     function remove_dusts() {
