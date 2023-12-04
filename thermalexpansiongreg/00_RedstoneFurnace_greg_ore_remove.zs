@@ -80,6 +80,9 @@ print("START: Thermal Expansion: Greg: Redstone Furnace: ore: Remove");
                 remove_gregtech_ore(<gregtech:ore_pentlandite_0>);
             //garnierite
                 remove_gregtech_ore(<gregtech:ore_garnierite_0>);
+            
+            //platinum
+                remove_gregtech_ore(<gregtech:ore_platinum_0>);
     }
 
     function remove_crushed_ore() {
