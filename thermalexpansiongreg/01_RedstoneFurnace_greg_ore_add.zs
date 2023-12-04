@@ -140,6 +140,9 @@ print("START: Thermal Expansion: Greg: Redstone Furnace: ore: Add");
             redstonefurnace_add_gt_crushed_ores(380, UF.getItemstack(<ore:ingotNickel>) );
         //garnierite
             redstonefurnace_add_gt_crushed_ores(280, UF.getItemstack(<ore:ingotNickel>) );
+        
+        //platinum
+            redstonefurnace_add_gt_crushed_ores(80, UF.getItemstack(<ore:ingotPlatinum>) );
     }
 
     function add_dust_ores() {
