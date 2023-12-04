@@ -3,7 +3,7 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import crafttweaker.oredict.IOreDictEntry;
 
-print("START: Thermal Expansion: Greg: Redstone Furnace: Remove");
+print("START: Thermal Expansion: Greg: Redstone Furnace: ore: Remove");
     /*
         //mods.thermalexpansion.RedstoneFurnace.removeRecipe(IItemStack input);
         mods.thermalexpansion.RedstoneFurnace.removeRecipe(<minecraft:gold_ore>);
@@ -159,4 +159,4 @@ print("START: Thermal Expansion: Greg: Redstone Furnace: Remove");
     remove_ores();
     remove_dusts();
     remove_crushed_ore();
-print("END: Thermal Expansion: Greg: Redstone Furnace: Remove");
+print("END: Thermal Expansion: Greg: Redstone Furnace: ore: Remove");

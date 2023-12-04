@@ -5,7 +5,7 @@ import crafttweaker.oredict.IOreDictEntry;
 
 import scripts.thermalexpansiongreg.Util_Functions as UF;
 
-print("START: Thermal Expansion: Greg: Redstone Furnace: Add");
+print("START: Thermal Expansion: Greg: Redstone Furnace: ore: Add");
     /*
         RF used
             Ore: 2000 RF
@@ -179,4 +179,4 @@ print("START: Thermal Expansion: Greg: Redstone Furnace: Add");
     add_ores();
     add_crushed_ores();
     add_dust_ores();
-print("END: Thermal Expansion: Greg: Redstone Furnace: Add");
+print("END: Thermal Expansion: Greg: Redstone Furnace: ore: Add");
