@@ -172,6 +172,8 @@ print("START: Thermal Expansion: Greg: Redstone Furnace: Add");
             redstonfurnace_add_gt_dust_ores(69, UF.getItemstack(<ore:ingotNickel>) );
         //pentlandite
             redstonfurnace_add_gt_dust_ores(380, UF.getItemstack(<ore:ingotNickel>) );
+        //garnierite
+            redstonfurnace_add_gt_dust_ores(280, UF.getItemstack(<ore:ingotNickel>) );
     }
 
     add_ores();
