@@ -96,6 +96,8 @@ print("START: Thermal Expansion: Greg: Redstone Furnace: Add");
         
         //nickel
             redstonefurnace_add_gt_ores(<gregtech:ore_nickel_0>, UF.getItemstack(<ore:ingotNickel>) ); 
+        //pentlandite
+            redstonefurnace_add_gt_ores(<gregtech:ore_pentlandite_0>, UF.getItemstack(<ore:ingotNickel>) ); 
     }
 
     function add_crushed_ores() {
