@@ -22,6 +22,12 @@ print("START: Thermal Expansion: Greg: Pulverizer");
                 var terracotta_iitemstack = terracotta_itemdef.makeStack(i);
                 mods.thermalexpansion.Pulverizer.removeRecipe(terracotta_iitemstack);
             }
+        //re-add recipes using gt clay dust
+            mods.thermalexpansion.Pulverizer.addRecipe(UF.getItemstack( <ore:dustClay> ) * 4, <minecraft:hardened_clay>, energy_cost);
+            for i in 0 to 16 {
+                var terracotta_iitemstack = terracotta_itemdef.makeStack(i);
+                mods.thermalexpansion.Pulverizer.addRecipe(UF.getItemstack( <ore:dustClay> ) * 4, terracotta_iitemstack, energy_cost);
+            }
     }
     replace_terracotta_recipes();
 print("END: Thermal Expansion: Greg: Pulverizer");
