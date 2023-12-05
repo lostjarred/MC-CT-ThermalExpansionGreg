@@ -3,5 +3,5 @@ Crafttweaker script to help with add gregtech to a pack
 
 ==-- Craftweaker Priorities --==
     800 - util functions
-    500 - Redstone Furnace ore Add, Redstone Furnace Add
+    500 - Redstone Furnace ore Add, Redstone Furnace replace, Pulverizer replace
     510 - Redstone Furnace ore Remove
