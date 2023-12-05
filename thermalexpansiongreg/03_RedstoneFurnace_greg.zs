@@ -14,6 +14,9 @@ print("START: Thermal Expansion: Greg: Redstone Furnace");
         //invar dust - ingot
             mods.thermalexpansion.RedstoneFurnace.removeRecipe(<gregtech:meta_dust:287>);
             mods.thermalexpansion.RedstoneFurnace.addRecipe(UF.getItemstack(<ore:ingotInvar>), <gregtech:meta_dust:287>, dust_ingot_energy);
+        //bronze dust - ingot
+            mods.thermalexpansion.RedstoneFurnace.removeRecipe(<gregtech:meta_dust:260>);
+            mods.thermalexpansion.RedstoneFurnace.addRecipe(UF.getItemstack(<ore:ingotBronze>), <gregtech:meta_dust:260>, dust_ingot_energy);
     }
     
     function replace_recipes() {
