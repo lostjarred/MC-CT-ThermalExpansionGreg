@@ -7,9 +7,13 @@ import scripts.thermalexpansiongreg.Util_Functions as UF;
 
 print("START: Thermal Expansion: Greg: Redstone Furnace");
     function replace_alloy_recipes() {
-        //electrum
+        val dust_ingot_energy = 1500;
+        //electrum dust - ingot
             mods.thermalexpansion.RedstoneFurnace.removeRecipe(<gregtech:meta_dust:277>);
-            mods.thermalexpansion.RedstoneFurnace.addRecipe(UF.getItemstack(<ore:ingotElectrum>), <gregtech:meta_dust:277>, 1500);
+            mods.thermalexpansion.RedstoneFurnace.addRecipe(UF.getItemstack(<ore:ingotElectrum>), <gregtech:meta_dust:277>, dust_ingot_energy);
+        //invar dust - ingot
+            mods.thermalexpansion.RedstoneFurnace.removeRecipe(<gregtech:meta_dust:287>);
+            mods.thermalexpansion.RedstoneFurnace.addRecipe(UF.getItemstack(<ore:ingotInvar>), <gregtech:meta_dust:287>, dust_ingot_energy);
     }
     
     function replace_recipes() {
