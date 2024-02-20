@@ -33,8 +33,8 @@ print("START: Thermal Expansion: Ore: Pulvizer: Add: Greg");
                 var secondoutputoredict = oreDict.get(secondaryoreduststring);
             
             //itemstacks
-                var outputitemstack = utils.getItemstack(ouputoredict);
-                var secondoutputitemstack = utils.getItemstack(secondoutputoredict);
+                var outputitemstack = UF.getItemstack(ouputoredict);
+                var secondoutputitemstack = UF.getItemstack(secondoutputoredict);
             
             //ore to crushed ore
                 //endstone
@@ -57,8 +57,8 @@ print("START: Thermal Expansion: Ore: Pulvizer: Add: Greg");
                     var crushedoreoredict = oreDict.get(crushedorestring);
 
                 //itemstack
-                    var outputitemstackdust = utils.getItemstack(ouputoredictdust);
-                    var crushedoreitemstack = utils.getItemstack(crushedoreoredict);
+                    var outputitemstackdust = UF.getItemstack(ouputoredictdust);
+                    var crushedoreitemstack = UF.getItemstack(crushedoreoredict);
                 add_Pulverzier_Recipe(outputitemstackdust, crushedoreitemstack, secondoutputitemstack);
         }
 
@@ -90,8 +90,8 @@ print("START: Thermal Expansion: Ore: Pulvizer: Add: Greg");
                     var secondoutputoredict = oreDict.get(secondaryoreduststring);
                 
                 //itemstacks
-                    var outputitemstack = utils.getItemstack(ouputoredict);
-                    var secondoutputitemstack = utils.getItemstack(secondoutputoredict);
+                    var outputitemstack = UF.getItemstack(ouputoredict);
+                    var secondoutputitemstack = UF.getItemstack(secondoutputoredict);
             
             //gem stuff
                 //gem names
@@ -99,7 +99,7 @@ print("START: Thermal Expansion: Ore: Pulvizer: Add: Greg");
                 //gem oredict
                     var seondgemoutputoredict = oreDict.get(secondaryoregemstring);
                 //gem itemstack
-                    var seondgemoutputitemstack = utils.getItemstack(seondgemoutputoredict);
+                    var seondgemoutputitemstack = UF.getItemstack(seondgemoutputoredict);
             
             //ore to crushed ore
                 //endstone
@@ -121,8 +121,8 @@ print("START: Thermal Expansion: Ore: Pulvizer: Add: Greg");
                     var crushedoreoredict = oreDict.get(crushedorestring);
 
                 //itemstack
-                    var outputitemstackdust = utils.getItemstack(ouputoredictdust);
-                    var crushedoreitemstack = utils.getItemstack(crushedoreoredict);
+                    var outputitemstackdust = UF.getItemstack(ouputoredictdust);
+                    var crushedoreitemstack = UF.getItemstack(crushedoreoredict);
                 add_Pulverzier_Recipe(outputitemstackdust, crushedoreitemstack, secondoutputitemstack);
         }
         function add_Pulverzier_Recipe(output, input, secondaryoutput) {
