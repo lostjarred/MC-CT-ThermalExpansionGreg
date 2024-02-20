@@ -125,7 +125,7 @@ print("START: Thermal Expansion: Ore: Pulvizer: Add: Greg");
                     var crushedoreitemstack = UF.getItemstack(crushedoreoredict);
                 add_Pulverzier_Recipe(outputitemstackdust, crushedoreitemstack, secondoutputitemstack);
         }
-        function add_Pulverzier_Recipe(output, input, secondaryoutput) {
+        function add_Pulverzier_Recipe(output as IItemStack, input as IItemStack, secondaryoutput as IItemStack) {
             /*
                 mods.thermalexpansion.Pulverizer.addRecipe(IItemStack output, IItemStack input, int energy, @Optional IItemStack secondaryOutput, @Optional int secondaryChance);
                 mods.thermalexpansion.Pulverizer.addRecipe(<minecraft:diamond>, <minecraft:stick>, 1500, <minecraft:stone>, 20);
