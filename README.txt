@@ -8,3 +8,4 @@ Crafttweaker script to help with add gregtech to a pack
             Pulverizer replace
             Ore - Pulverizer
     1510 - Redstone Furnace ore Remove
+    1600 - Ore - Pulvizer Remove
