@@ -16,6 +16,7 @@ print("START: Thermal Expansion: Ore: Pulvizer: Remove: Greg");
         //coal
             mods.thermalexpansion.Pulverizer.removeRecipe(<minecraft:coal_ore>);
         //lapis
+            mods.thermalexpansion.Pulverizer.removeRecipe(<minecraft:lapis_ore>);
         //diamond
         //redstone
         //emerald
