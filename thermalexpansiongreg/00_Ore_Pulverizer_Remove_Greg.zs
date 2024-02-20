@@ -24,6 +24,7 @@ print("START: Thermal Expansion: Ore: Pulvizer: Remove: Greg");
         //emerald
             mods.thermalexpansion.Pulverizer.removeRecipe(<minecraft:emerald_ore>);
         //nether quartz
+            mods.thermalexpansion.Pulverizer.removeRecipe(<minecraft:quartz_ore>);
     }
 
     remove_minecraft_ore_recipes();
