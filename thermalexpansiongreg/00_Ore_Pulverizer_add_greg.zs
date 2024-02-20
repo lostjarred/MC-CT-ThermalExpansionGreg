@@ -51,7 +51,7 @@ print("START: Thermal Expansion: Greg: Pulverizer");
                     }
 
             //crushed ore to dust
-                    var dustorestring = "dustImpure" + inputore;
+                    var dustorestring = "dust" + inputore;
                 //oredicts
                     var ouputoredictdust = oreDict.get(dustorestring);
                     var crushedoreoredict = oreDict.get(crushedorestring);
