@@ -25,7 +25,7 @@ print("START: Thermal Expansion: Greg: Pulverizer");
                 var netheroredict = oreDict.get(netherorestring);
             
             //crushed ore oredict names
-                var crushedorestring = "crushed" + inputore;
+                var crushedorestring = "crushedPurified" + inputore;
                 var secondaryoreduststring = "dust" + secondaryore;
             
             //crushed oredicts
@@ -81,7 +81,7 @@ print("START: Thermal Expansion: Greg: Pulverizer");
             
             //crushed ore stuff
                 //crushed ore oredict names
-                    var crushedorestring = "crushed" + inputore;
+                    var crushedorestring = "crushedPurified" + inputore;
                     var dustorestring = "dust" + inputore;
                     var secondaryoreduststring = "dust" + secondaryore;
                 
