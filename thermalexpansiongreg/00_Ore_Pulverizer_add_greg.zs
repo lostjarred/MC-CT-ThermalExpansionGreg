@@ -5,7 +5,7 @@ import crafttweaker.oredict.IOreDictEntry;
 
 import scripts.thermalexpansiongreg.Util_Functions as UF;
 
-print("START: Thermal Expansion: Greg: Pulverizer");
+print("START: Thermal Expansion: Ore: Pulvizer: Add: Greg");
     /*
         Main functions - taken from my immersive enginering crafttwekeaker pack and modifyed
     */
@@ -359,4 +359,4 @@ print("START: Thermal Expansion: Greg: Pulverizer");
         //basaltic mineral sand
             addNonGemOreProcessing("BasalticMineralSand", 2, "Basalt");
     
-print("END: Thermal Expansion: Greg: Pulverizer");
+print("END: Thermal Expansion: Ore: Pulvizer: Add: Greg");
