@@ -43,6 +43,7 @@ print("START: Thermal Expansion: Ore: Pulvizer: Remove: Greg");
         //platinum
             mods.thermalexpansion.Pulverizer.removeRecipe(<thermalfoundation:ore:6>);
         //iridium
+            mods.thermalexpansion.Pulverizer.removeRecipe(<thermalfoundation:ore:7>);
     }
 
     remove_minecraft_ore_recipes();
