@@ -27,6 +27,19 @@ print("START: Thermal Expansion: Ore: Pulvizer: Remove: Greg");
             mods.thermalexpansion.Pulverizer.removeRecipe(<minecraft:quartz_ore>);
     }
 
+    function remove_thermal_ore_recipes() {
+        //copper
+            mods.thermalexpansion.Pulverizer.removeRecipe(<thermalfoundation:ore>);
+        //tin
+        //silver
+        //lead
+        //aluminum
+        //nickel
+        //platinum
+        //iridium
+    }
+
     remove_minecraft_ore_recipes();
+    remove_thermal_ore_recipes();
 
 print("END: Thermal Expansion: Ore: Pulvizer: Remove: Greg");
