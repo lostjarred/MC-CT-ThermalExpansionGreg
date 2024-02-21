@@ -41,6 +41,7 @@ print("START: Thermal Expansion: Ore: Pulvizer: Remove: Greg");
         //nickel
             mods.thermalexpansion.Pulverizer.removeRecipe(<thermalfoundation:ore:5>);
         //platinum
+            mods.thermalexpansion.Pulverizer.removeRecipe(<thermalfoundation:ore:6>);
         //iridium
     }
 
