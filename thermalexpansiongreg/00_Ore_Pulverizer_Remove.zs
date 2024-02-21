@@ -31,6 +31,7 @@ print("START: Thermal Expansion: Ore: Pulvizer: Remove: Greg");
         //copper
             mods.thermalexpansion.Pulverizer.removeRecipe(<thermalfoundation:ore>);
         //tin
+            mods.thermalexpansion.Pulverizer.removeRecipe(<thermalfoundation:ore:1>);
         //silver
         //lead
         //aluminum
