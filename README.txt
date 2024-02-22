@@ -1,5 +1,5 @@
 ====---- Thermal Expansion Gregtech ----====
-Crafttweaker script to help with add gregtech to a pack
+Crafttweaker script to help with adding gregtech to a pack
 Tested with Gregtech CEU Version : 1.12.2-2.7.3-beta
 
 ==-- Craftweaker Priorities --==
