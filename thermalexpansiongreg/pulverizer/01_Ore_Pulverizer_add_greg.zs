@@ -56,11 +56,14 @@ print("START: Thermal Expansion: Ore: Pulvizer: Add: Greg");
                 //oredicts
                     var ouputoredictdust = oreDict.get(dustorestring);
                     var crushedoreoredict = oreDict.get(crushedorestring);
+                    var crushedpureoreoredict = oreDict.get(crushedpureorestring);
 
                 //itemstack
                     var outputitemstackdust = UF.getItemstack(ouputoredictdust);
                     var crushedoreitemstack = UF.getItemstack(crushedoreoredict);
+                    var crushedpureoreitemstack = UF.getItemstack(crushedpureoreoredict);
                 add_Pulverzier_Recipe(outputitemstackdust, crushedoreitemstack, secondoutputitemstack);
+                add_Pulverzier_Recipe(outputitemstackdust, crushedpureoreitemstack, secondoutputitemstack);
         }
 
         function addGemOreProcessing(inputore as string, outputammount as int, secondaryore as string) {
