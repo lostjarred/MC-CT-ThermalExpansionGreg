@@ -67,6 +67,8 @@ print("START: Thermal Expansion: Ore: Pulvizer: Remove: Greg");
             mods.thermalexpansion.Pulverizer.removeRecipe(<gregtech:ore_plutonium_0>);
         //sulfur
             mods.thermalexpansion.Pulverizer.removeRecipe(<gregtech:ore_sulfur_0>);
+        //thorium
+            mods.thermalexpansion.Pulverizer.removeRecipe(<gregtech:ore_thorium_0>);
     }
 
     remove_minecraft_ore_recipes();
