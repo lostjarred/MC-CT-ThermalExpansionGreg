@@ -46,43 +46,43 @@ print("START: Thermal Expansion: Greg: Redstone Furnace: ore: Remove");
     }
 
     function remove_ores() {
-            //copper
+        //copper
             remove_gregtech_ore(<gregtech:ore_copper_0>);
-            //chalcopyrite
-                remove_gregtech_ore(<gregtech:ore_chalcopyrite_0>);
-            //malachite
-                remove_gregtech_ore(<gregtech:ore_malachite_0>);
-            //bornite
-                remove_gregtech_ore(<gregtech:ore_bornite_0>);
-            //chalcocite
-                remove_gregtech_ore(<gregtech:ore_chalcocite_0>);
-            //tetrahedrite
-                remove_gregtech_ore(<gregtech:ore_tetrahedrite_0>);
+        //chalcopyrite
+            remove_gregtech_ore(<gregtech:ore_chalcopyrite_0>);
+        //malachite
+            remove_gregtech_ore(<gregtech:ore_malachite_0>);
+        //bornite
+            remove_gregtech_ore(<gregtech:ore_bornite_0>);
+        //chalcocite
+            remove_gregtech_ore(<gregtech:ore_chalcocite_0>);
+        //tetrahedrite
+            remove_gregtech_ore(<gregtech:ore_tetrahedrite_0>);
             
-            //cassiterite
-                remove_gregtech_ore(<gregtech:ore_cassiterite_0>);
-            //casssiterite sand
-                remove_gregtech_ore(<gregtech:ore_cassiterite_sand_0>);
-            //tin
-                remove_gregtech_ore(<gregtech:ore_tin_0>);
+        //cassiterite
+            remove_gregtech_ore(<gregtech:ore_cassiterite_0>);
+        //casssiterite sand
+            remove_gregtech_ore(<gregtech:ore_cassiterite_sand_0>);
+        //tin
+            remove_gregtech_ore(<gregtech:ore_tin_0>);
             
-            //silver
-                remove_gregtech_ore(<gregtech:ore_silver_0>);
+        //silver
+            remove_gregtech_ore(<gregtech:ore_silver_0>);
 
-            //galena
-                remove_gregtech_ore(<gregtech:ore_galena_0>);
-            //lead
-                remove_gregtech_ore(<gregtech:ore_lead_0>);
+        //galena
+            remove_gregtech_ore(<gregtech:ore_galena_0>);
+        //lead
+            remove_gregtech_ore(<gregtech:ore_lead_0>);
 
-            //nickel
-                remove_gregtech_ore(<gregtech:ore_nickel_0>);
-            //pentlandite
-                remove_gregtech_ore(<gregtech:ore_pentlandite_0>);
-            //garnierite
-                remove_gregtech_ore(<gregtech:ore_garnierite_0>);
+        //nickel
+            remove_gregtech_ore(<gregtech:ore_nickel_0>);
+        //pentlandite
+            remove_gregtech_ore(<gregtech:ore_pentlandite_0>);
+        //garnierite
+            remove_gregtech_ore(<gregtech:ore_garnierite_0>);
             
-            //platinum
-                remove_gregtech_ore(<gregtech:ore_platinum_0>);
+        //platinum
+            remove_gregtech_ore(<gregtech:ore_platinum_0>);
     }
 
     function remove_crushed_ore() {
