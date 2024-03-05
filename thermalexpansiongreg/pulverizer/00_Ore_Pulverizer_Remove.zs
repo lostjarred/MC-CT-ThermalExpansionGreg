@@ -61,6 +61,8 @@ print("START: Thermal Expansion: Ore: Pulvizer: Remove: Greg");
             mods.thermalexpansion.Pulverizer.removeRecipe(<gregtech:ore_molybdenum_0>);
         //neodymium
             mods.thermalexpansion.Pulverizer.removeRecipe(<gregtech:ore_neodymium_0>);
+        //palladium
+            mods.thermalexpansion.Pulverizer.removeRecipe(<gregtech:ore_palladium_0>);
     }
 
     remove_minecraft_ore_recipes();
