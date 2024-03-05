@@ -50,7 +50,9 @@ print("START: Thermal Expansion: Ore: Pulvizer: Remove: Greg");
         //aluminium
             mods.thermalexpansion.Pulverizer.removeRecipe(<gregtech:ore_aluminium_0>);
         //beryllium
-             mods.thermalexpansion.Pulverizer.removeRecipe(<gregtech:ore_beryllium_0>);
+            mods.thermalexpansion.Pulverizer.removeRecipe(<gregtech:ore_beryllium_0>);
+        //cobalt
+            mods.thermalexpansion.Pulverizer.removeRecipe(<gregtech:ore_cobalt_0>);
     }
 
     remove_minecraft_ore_recipes();
