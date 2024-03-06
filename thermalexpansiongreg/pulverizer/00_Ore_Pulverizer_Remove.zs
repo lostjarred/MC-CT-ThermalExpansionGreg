@@ -9,6 +9,7 @@ print("START: Thermal Expansion: Ore: Pulvizer: Remove: Greg");
         mods.thermalexpansion.Pulverizer.removeRecipe(<thermalfoundation:material:136>);
     */
     function remove_minecraft_ore_recipes() {
+        print("TE-GT-CT Removing VMC ores from pulverizer");
         //gold
             mods.thermalexpansion.Pulverizer.removeRecipe(<minecraft:gold_ore>);
         //iron
@@ -28,6 +29,7 @@ print("START: Thermal Expansion: Ore: Pulvizer: Remove: Greg");
     }
 
     function remove_thermal_ore_recipes() {
+        print("TE-GT-CT Removing Thermal Series ores from pulverizer");
         //copper
             mods.thermalexpansion.Pulverizer.removeRecipe(<thermalfoundation:ore>);
         //tin
@@ -47,6 +49,7 @@ print("START: Thermal Expansion: Ore: Pulvizer: Remove: Greg");
     }
 
     function remove_greg_ore_recipes() {
+        print("TE-GT-CT Removing GregTech ores from pulverizer");
         //aluminium
             mods.thermalexpansion.Pulverizer.removeRecipe(<gregtech:ore_aluminium_0>);
         //beryllium
