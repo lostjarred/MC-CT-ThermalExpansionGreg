@@ -77,6 +77,8 @@ print("START: Thermal Expansion: Ore: Pulvizer: Remove: Greg");
             mods.thermalexpansion.Pulverizer.removeRecipe(<gregtech:ore_asbestos_0>);
         //banded iron
             mods.thermalexpansion.Pulverizer.removeRecipe(<gregtech:ore_banded_iron_0>);
+        //blue topaz
+            mods.thermalexpansion.Pulverizer.removeRecipe(<gregtech:ore_blue_topaz_0>);
     }
 
     remove_minecraft_ore_recipes();
