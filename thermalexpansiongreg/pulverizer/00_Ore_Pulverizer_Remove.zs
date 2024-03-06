@@ -83,6 +83,8 @@ print("START: Thermal Expansion: Ore: Pulvizer: Remove: Greg");
             mods.thermalexpansion.Pulverizer.removeRecipe(<gregtech:ore_brown_limonite_0>);
         //calcite
             mods.thermalexpansion.Pulverizer.removeRecipe(<gregtech:ore_calcite_0>);
+        //cassiterite
+            mods.thermalexpansion.Pulverizer.removeRecipe(<gregtech:ore_cassiterite_0>);
     }
 
     remove_minecraft_ore_recipes();
