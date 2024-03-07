@@ -104,6 +104,8 @@ print("START: Thermal Expansion: Ore: Pulvizer: Remove: Greg");
             mods.thermalexpansion.Pulverizer.removeRecipe(<gregtech:ore_galena_0>);
         //garnierite
             mods.thermalexpansion.Pulverizer.removeRecipe(<gregtech:ore_garnierite_0>);
+        //green sapphire
+            mods.thermalexpansion.Pulverizer.removeRecipe(<gregtech:ore_green_sapphire_0>);
     }
 
     remove_minecraft_ore_recipes();
