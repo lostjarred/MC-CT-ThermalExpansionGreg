@@ -94,6 +94,8 @@ print("START: Thermal Expansion: Ore: Pulvizer: Remove: Greg");
             mods.thermalexpansion.Pulverizer.removeRecipe(<gregtech:ore_chalcopyrite_0>);
         //chromite
             mods.thermalexpansion.Pulverizer.removeRecipe(<gregtech:ore_chromite_0>);
+        //cinnabar
+            mods.thermalexpansion.Pulverizer.removeRecipe(<gregtech:ore_cinnabar_0>);
     }
 
     remove_minecraft_ore_recipes();
