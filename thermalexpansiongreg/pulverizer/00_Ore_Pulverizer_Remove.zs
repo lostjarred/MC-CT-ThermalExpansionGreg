@@ -112,6 +112,8 @@ print("START: Thermal Expansion: Ore: Pulvizer: Remove: Greg");
             mods.thermalexpansion.Pulverizer.removeRecipe(<gregtech:ore_ilmenite_0>);
         //bauxite
             mods.thermalexpansion.Pulverizer.removeRecipe(<gregtech:ore_bauxite_0>);
+        //lazurite
+            mods.thermalexpansion.Pulverizer.removeRecipe(<gregtech:ore_lazurite_0>);
     }
 
     remove_minecraft_ore_recipes();
