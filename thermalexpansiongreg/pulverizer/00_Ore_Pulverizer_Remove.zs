@@ -148,6 +148,8 @@ print("START: Thermal Expansion: Ore: Pulvizer: Remove: Greg");
             mods.thermalexpansion.Pulverizer.removeRecipe(<gregtech:ore_spessartine_0>);
         //sphalerite
             mods.thermalexpansion.Pulverizer.removeRecipe(<gregtech:ore_sphalerite_0>);
+        //stibnite
+            mods.thermalexpansion.Pulverizer.removeRecipe(<gregtech:ore_stibnite_0>);
     }
 
     remove_minecraft_ore_recipes();
