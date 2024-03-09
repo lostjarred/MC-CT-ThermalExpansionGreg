@@ -158,6 +158,8 @@ print("START: Thermal Expansion: Ore: Pulvizer: Remove: Greg");
             mods.thermalexpansion.Pulverizer.removeRecipe(<gregtech:ore_tungstate_0>);
         //uraninite
             mods.thermalexpansion.Pulverizer.removeRecipe(<gregtech:ore_uraninite_0>);
+        //wulfenite
+            mods.thermalexpansion.Pulverizer.removeRecipe(<gregtech:ore_wulfenite_0>);
     }
 
     remove_minecraft_ore_recipes();
