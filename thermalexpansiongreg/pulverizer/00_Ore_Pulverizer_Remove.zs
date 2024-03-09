@@ -142,6 +142,8 @@ print("START: Thermal Expansion: Ore: Pulvizer: Remove: Greg");
             mods.thermalexpansion.Pulverizer.removeRecipe(<gregtech:ore_scheelite_0>);
         //sodalite
             mods.thermalexpansion.Pulverizer.removeRecipe(<gregtech:ore_sodalite_0>);
+        //tantalite
+            mods.thermalexpansion.Pulverizer.removeRecipe(<gregtech:ore_tantalite_0>);
     }
 
     remove_minecraft_ore_recipes();
