@@ -132,6 +132,8 @@ print("START: Thermal Expansion: Ore: Pulvizer: Remove: Greg");
             mods.thermalexpansion.Pulverizer.removeRecipe(<gregtech:ore_rock_salt_0>);
         //ruby
             mods.thermalexpansion.Pulverizer.removeRecipe(<gregtech:ore_ruby_0>);
+        //salt
+            mods.thermalexpansion.Pulverizer.removeRecipe(<gregtech:ore_salt_0>);
     }
 
     remove_minecraft_ore_recipes();
