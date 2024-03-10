@@ -232,6 +232,8 @@ print("START: Thermal Expansion: Ore: Pulvizer: Remove: Greg");
             mods.thermalexpansion.Pulverizer.removeRecipe(<gregtech:ore_trona_0>);
         //gypsum
             mods.thermalexpansion.Pulverizer.removeRecipe(<gregtech:ore_gypsum_0>);
+        //zeolite
+            mods.thermalexpansion.Pulverizer.removeRecipe(<gregtech:ore_zeolite_0>);
     }
 
     remove_minecraft_ore_recipes();
