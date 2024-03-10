@@ -226,6 +226,8 @@ print("START: Thermal Expansion: Ore: Pulvizer: Remove: Greg");
             mods.thermalexpansion.Pulverizer.removeRecipe(<gregtech:ore_fullers_earth_0>);
         //pitchblend
             mods.thermalexpansion.Pulverizer.removeRecipe(<gregtech:ore_pitchblende_0>);
+        //monazite
+            mods.thermalexpansion.Pulverizer.removeRecipe(<gregtech:ore_monazite_0>);
     }
 
     remove_minecraft_ore_recipes();
