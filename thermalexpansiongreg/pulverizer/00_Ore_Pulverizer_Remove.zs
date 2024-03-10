@@ -236,6 +236,8 @@ print("START: Thermal Expansion: Ore: Pulvizer: Remove: Greg");
             mods.thermalexpansion.Pulverizer.removeRecipe(<gregtech:ore_zeolite_0>);
         //electrotine
             mods.thermalexpansion.Pulverizer.removeRecipe(<gregtech:ore_electrotine_0>);
+        //diatomite
+            mods.thermalexpansion.Pulverizer.removeRecipe(<gregtech:ore_diatomite_0>);
     }
 
     remove_minecraft_ore_recipes();
