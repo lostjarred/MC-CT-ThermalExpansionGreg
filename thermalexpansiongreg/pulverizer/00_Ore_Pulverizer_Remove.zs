@@ -222,6 +222,8 @@ print("START: Thermal Expansion: Ore: Pulvizer: Remove: Greg");
             mods.thermalexpansion.Pulverizer.removeRecipe(<gregtech:ore_pollucite_0>);
         //bentonite
             mods.thermalexpansion.Pulverizer.removeRecipe(<gregtech:ore_bentonite_0>);
+        //fuller earth
+            mods.thermalexpansion.Pulverizer.removeRecipe(<gregtech:ore_fullers_earth_0>);
     }
 
     remove_minecraft_ore_recipes();
