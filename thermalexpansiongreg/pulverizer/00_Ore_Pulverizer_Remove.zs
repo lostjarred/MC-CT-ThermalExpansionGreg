@@ -202,6 +202,8 @@ print("START: Thermal Expansion: Ore: Pulvizer: Remove: Greg");
             mods.thermalexpansion.Pulverizer.removeRecipe(<gregtech:ore_pyrochlore_0>);
         //oilsands
             mods.thermalexpansion.Pulverizer.removeRecipe(<gregtech:ore_oilsands_0>);
+        //olivane
+            mods.thermalexpansion.Pulverizer.removeRecipe(<gregtech:ore_olivine_0>);
     }
 
     remove_minecraft_ore_recipes();
