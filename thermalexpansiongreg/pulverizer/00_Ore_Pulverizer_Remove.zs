@@ -214,6 +214,8 @@ print("START: Thermal Expansion: Ore: Pulvizer: Remove: Greg");
             mods.thermalexpansion.Pulverizer.removeRecipe(<gregtech:ore_tricalcium_phosphate_0>);
         //red garnet
             mods.thermalexpansion.Pulverizer.removeRecipe(<gregtech:ore_garnet_red_0>);
+        //yellow garnet
+            mods.thermalexpansion.Pulverizer.removeRecipe(<gregtech:ore_garnet_yellow_0>);
     }
 
     remove_minecraft_ore_recipes();
