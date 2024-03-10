@@ -208,6 +208,8 @@ print("START: Thermal Expansion: Ore: Pulvizer: Remove: Greg");
             mods.thermalexpansion.Pulverizer.removeRecipe(<gregtech:ore_opal_0>);
         //amethyst
             mods.thermalexpansion.Pulverizer.removeRecipe(<gregtech:ore_amethyst_0>);
+        //apatite
+            mods.thermalexpansion.Pulverizer.removeRecipe(<gregtech:ore_apatite_0>);
     }
 
     remove_minecraft_ore_recipes();
