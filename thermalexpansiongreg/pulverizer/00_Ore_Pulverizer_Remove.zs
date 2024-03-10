@@ -182,8 +182,10 @@ print("START: Thermal Expansion: Ore: Pulvizer: Remove: Greg");
             mods.thermalexpansion.Pulverizer.removeRecipe(<gregtech:ore_spodumene_0>);
         //lepidolite
             mods.thermalexpansion.Pulverizer.removeRecipe(<gregtech:ore_lepidolite_0>);
-        //glauconite
+        //glauconite sand
             mods.thermalexpansion.Pulverizer.removeRecipe(<gregtech:ore_glauconite_sand_0>);
+        //malachite
+            mods.thermalexpansion.Pulverizer.removeRecipe(<gregtech:ore_malachite_0>);
     }
 
     remove_minecraft_ore_recipes();
