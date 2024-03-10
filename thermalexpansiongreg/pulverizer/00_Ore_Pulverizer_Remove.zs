@@ -218,6 +218,8 @@ print("START: Thermal Expansion: Ore: Pulvizer: Remove: Greg");
             mods.thermalexpansion.Pulverizer.removeRecipe(<gregtech:ore_garnet_yellow_0>);
         //vanadium magnetite
             mods.thermalexpansion.Pulverizer.removeRecipe(<gregtech:ore_vanadium_magnetite_0>);
+        //pollucite
+            mods.thermalexpansion.Pulverizer.removeRecipe(<gregtech:ore_pollucite_0>);
     }
 
     remove_minecraft_ore_recipes();
