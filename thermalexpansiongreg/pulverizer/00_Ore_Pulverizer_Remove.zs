@@ -176,6 +176,8 @@ print("START: Thermal Expansion: Ore: Pulvizer: Remove: Greg");
             mods.thermalexpansion.Pulverizer.removeRecipe(<gregtech:ore_realgar_0>);
         //bastnasite
             mods.thermalexpansion.Pulverizer.removeRecipe(<gregtech:ore_bastnasite_0>);
+        //pentlandite
+            mods.thermalexpansion.Pulverizer.removeRecipe(<gregtech:ore_pentlandite_0>);
     }
 
     remove_minecraft_ore_recipes();
