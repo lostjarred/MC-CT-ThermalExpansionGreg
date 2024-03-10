@@ -198,6 +198,8 @@ print("START: Thermal Expansion: Ore: Pulvizer: Remove: Greg");
             mods.thermalexpansion.Pulverizer.removeRecipe(<gregtech:ore_soapstone_0>);
         //kyanite
             mods.thermalexpansion.Pulverizer.removeRecipe(<gregtech:ore_kyanite_0>);
+        //pyrochlore
+            mods.thermalexpansion.Pulverizer.removeRecipe(<gregtech:ore_pyrochlore_0>);
     }
 
     remove_minecraft_ore_recipes();
