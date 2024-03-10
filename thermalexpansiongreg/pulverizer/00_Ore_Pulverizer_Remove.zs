@@ -162,6 +162,8 @@ print("START: Thermal Expansion: Ore: Pulvizer: Remove: Greg");
             mods.thermalexpansion.Pulverizer.removeRecipe(<gregtech:ore_wulfenite_0>);
         //yellow limonite
             mods.thermalexpansion.Pulverizer.removeRecipe(<gregtech:ore_yellow_limonite_0>);
+        //nether quartz
+            mods.thermalexpansion.Pulverizer.removeRecipe(<gregtech:ore_nether_quartz_0>);
     }
 
     remove_minecraft_ore_recipes();
