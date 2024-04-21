@@ -8,5 +8,6 @@ Tested with Gregtech CEU Version : 1.12.2-2.7.3-beta
             Redstone Furnace replace, 
             Pulverizer replace
             Ore - Pulverizer
-    1510 - Redstone Furnace ore Remove
+            induction smelter replace
+    1510 - Redstone Furnace ore Remove,
     1600 - Ore - Pulvizer Remove
