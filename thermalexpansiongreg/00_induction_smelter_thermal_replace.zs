@@ -24,6 +24,9 @@ print("START: Thermal Expansion: Induction Smelter: Thermal: Replace");
                 mods.thermalexpansion.InductionSmelter.removeRecipe(<thermalfoundation:material:130>, <gregtech:meta_dust:41>);
             //add recipes
                 mods.thermalexpansion.InductionSmelter.addRecipe(UF.getItemstack(<ore:ingotElectrum>), UF.getItemstack(<ore:ingotGold>), UF.getItemstack(<ore:ingotSilver>), energy_ingot);
+                mods.thermalexpansion.InductionSmelter.addRecipe(UF.getItemstack(<ore:ingotElectrum>), UF.getItemstack(<ore:dustGold>), UF.getItemstack(<ore:ingotSilver>), energy_dust);
+                mods.thermalexpansion.InductionSmelter.addRecipe(UF.getItemstack(<ore:ingotElectrum>), UF.getItemstack(<ore:ingotGold>), UF.getItemstack(<ore:dustSilver>), energy_dust);
+                mods.thermalexpansion.InductionSmelter.addRecipe(UF.getItemstack(<ore:ingotElectrum>), UF.getItemstack(<ore:dustGold>), UF.getItemstack(<ore:dustSilver>), energy_dust);
         //invar
         //bronze
         //constantan 
